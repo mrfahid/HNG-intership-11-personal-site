@@ -38,6 +38,7 @@ footer {
   text-align: center;
   font-family: "Cinzel Decorative", serif;
   color: #fff;
+  max-width: 580px;
 }
 
 header {
@@ -49,16 +50,26 @@ footer {
 }
 
 main {
-  padding: 1rem;
+  padding: 1.3rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  max-width: 580px;
 }
 
 section {
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 .email {
   color: rgb(0, 115, 255);
   cursor: pointer
+}
+
+li {
+  list-style: none;
 }
 
 footer {
